@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+       div {
+          background-color: red;
+
+       }
+       .red{
+           background-color: yellow;
+
+       }
+       #myid{
+        background-color: blue;
+       }
+       div > p{
+
+        color: aqua;
+        background-color: brown;
+       }
+
+       div p{
+        color: aqua;
+        background-color: brown;
+       }
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       a:visited{
+        color: red;
+       }
+       a:link{
+        color: green;
+       }
+       a:active{
+        background-color: bisque;
+       }
+       a:hover{
+        color: brown;
+        background-color: rgb(58, 49, 49);
+       }
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am a div 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at ipsam optio culpa molestias. Dolorum possimus architecto deserunt veritatis, eum ipsa necessitatibus esse!</p>
+    </div>
+    <div>
+        i am another div 
+    </div>
+    <div id="myid">
+        i am also a div 
+    </div>
+    <a href="https://www.google.com">go to Google</a>
+    <a href="https://www.facebook.com">go to Facebook</a>
+</body>
+</html>

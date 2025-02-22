@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>form to apply for chodu CID</h1>
+    <form action="post">
+        <div>
+            <label for="username">enter your name</label>
+            <input type="text" id="username" name="username" placeholder="enter here">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" placeholder="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" placeholder="female">
+            <label for="female">female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="eligibility" value="yes">
+            <label for="eligibility">are you 18+</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment here</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="proffesion">select your proffesion</label>
+            <select id="proffesion" name="">
+                <option value="engineer">engineer</option>
+                <option value="civil service">civil service</option>
+                <option value="other">other</option>
+          </select>
+        </div>
+    </form>
+</body>
+
+</html>
