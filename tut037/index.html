@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Desining</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(171, 89, 89);
+        }
+
+        .nav {
+            border: 2px solid black;
+            background-color: rgb(133, 171, 79);
+            display: flex;
+            position: sticky;
+
+        }
+
+        .head {
+            padding: 30px;
+        }
+
+        .head:hover {
+            color: blueviolet;
+            text-decoration: dashed;
+        }
+
+        .box1 {
+            border: 2px solid rgb(180, 188, 91);
+            background-color: rgb(197, 105, 228);
+            box-shadow: -3px -4px 17px 5px black;
+            border-radius: 4px;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 200px;
+            top: 100px;
+        }
+
+        .box2 {
+            border: 2px solid rgb(180, 188, 91);
+            background-color: rgb(197, 105, 228);
+            box-shadow: -3px -4px 17px 5px black;
+            border-radius: 4px;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            left: 1000px;
+            bottom: 400px;
+        }
+
+        .descrip {
+            border: 2px solid rgb(196, 99, 99);
+            background-color: rgb(197, 105, 228);
+            box-shadow: -3px -4px 17px 5px black;
+            border-radius: 30px;
+            width: 800px;
+            height: 150px;
+            position: relative;
+            left: 350px;
+            bottom: 200px;
+        }
+
+        .para {
+            padding: 50px;
+            margin-left: 100px;
+            font-family: "Big Shoulders Stencil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            
+            
+
+        }
+        p{
+            font-size: 30px;
+        }
+        .circ{
+            position: sticky;
+            left: 1400px;
+            bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="head">HOME</div>
+        <div class="head">ABOUT US</div>
+        <div class="head">CONTACT</div>
+    </div>
+    <div class="box1">hey i am box 1</div>
+    <div class="box2">hey i am box 2</div>
+    <div class="descrip">
+        <p class="para">This layout is desinged by darsh bishnoi hope you liked it</p>
+    </div>
+    <svg height="100" width="100" class="circ">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+    </svg>
+</body>
+
+</html>
