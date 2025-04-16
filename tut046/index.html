@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container {
+            background-color: rgb(43, 111, 115);
+            height: 50vh;
+            width: 60vh;
+        }
+
+        .box {
+            background-color: rgb(92, 100, 207);
+            height: 10vh;
+            width: 20vh;
+            /* animation-name: lundanimation;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear(0 0%, 1.45 11.91%, 0.18 94.12%);
+            animation-delay: 1s;
+            /* animation-direction: reverse; */
+            /* animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: lundanimation 3s ease-in-out 3s 1 backwards;
+        }
+
+        @keyframes lundanimation {
+
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+                transform: translateX(1000px);
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+
+</html>

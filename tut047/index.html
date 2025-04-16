@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 8</title>
+    <style>
+        .container {
+            background-color: rgb(43, 111, 115);
+            height: 70vh;
+            width: 120vh;
+        }
+
+        .box {
+            background-color: rgb(92, 100, 207);
+            height: 10vh;
+            width: 10vh;
+            border-radius: 90px;
+            animation: projanimation 3s ease-in-out 1s infinite backwards;
+            /* animation: yanimation 3s ease-in-out 1s infinite backwards ; */
+        }
+
+        @keyframes projanimation {
+
+            from {
+                transform: translateY(200px);
+            }
+
+            to {
+                transform: translateX(200px);
+
+
+            }
+        }
+
+        /* @keyframes yanimation {
+            from {}
+
+            to {
+                transform: translateY(200px);
+
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
