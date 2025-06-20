@@ -1,27 +1,26 @@
 let random = Math.random()
 console.log(random)
 
-let a =("enter your number")
-let b=("enter operation")
-let c=("enter second number")
+let a = prompt("enter your number")
+let b = prompt("enter operation")
+let c = prompt("enter second number")
 
 
-let opr ={
-    "+" : "-",
-    "-" : "*",
-    "*" : "/",
-    "/" : "*",
-
+let opr = {
+    "+": "-",
+    "-": "*",
+    "*": "/",
+    "/": "*",
 }
 
 
 if (random > 0.1) {
-    console.log(`the result is ${a} ${b} ${c}`)
+    // console.log(`the result is ${a} ${b} ${c}`)
     alert(`the result is ${eval(`${a} ${b} ${c}`)}`)
 }
 
 
-else{
-    b= opr[b];
+else {
+    b = opr[b];
     alert(`the result is ${eval(`${a} ${b} ${c}`)}`)
 }
