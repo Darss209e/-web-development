@@ -9,4 +9,4 @@ function facfor(number) {
     return fac;
 }
 
-console.log(factorial(a))
+console.log(facfor(a))
